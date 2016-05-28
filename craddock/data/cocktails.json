@@ -1,0 +1,14 @@
+{
+	"old fashioned": {
+		"required": ["whiskey", "sugar", "bitters"],
+		"optional": ["orange"],
+		"preferred": [["bourbon", "rye"], "angostura", "raw sugar"],
+		"seasons": ["*"]
+	},
+	"martini": {
+		"required": ["gin", "vermouth"],
+		"optional": ["orange bitters"],
+		"preferred": ["dolin dry"],
+		"seasons": ["*"]
+	}
+}

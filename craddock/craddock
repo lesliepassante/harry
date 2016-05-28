@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+
+import json
+import os
+import sys
+
+
+def load_data():
+    dn = os.path.dirname(os.path.realpath(__file__))
+
+    with open(os.path.join(dn, 'data', 'ingredients.json')) as f:
+        ingredients = json.load(f)
+
+    with open(os.path.join(dn, 'data', 'cocktails.json')) as f:
+        cocktails = json.load(f)
+
+    return ingredients, cocktails
+
+
+def scan_bar(ingredients, explicit_stock, complete_stock):
+    for i in explicit_stock:
+        if i not in complete_stock:
+            complete_stock.add(i)
+            complete_stock.update(scan_bar(ingredients, ingredients.get(i, []), complete_stock))
+
+    return complete_stock
+
+
+def filter_by_season(cocktails, season):
+    return {c: s for c, s in cocktails.items() if '*' in s['seasons'] or season in s['seasons']}
+
+
+def compute_score(bar, ingredients):
+    print 'foo', ingredients, bar
+    if not ingredients:
+        return 0.0
+
+    score = 0.0
+    for i in ingredients:
+        if isinstance(i, list):
+            if bar.intersection(set(i)):
+                score += 1
+        elif i in bar:
+            score += 1
+    return score / len(ingredients)
+
+
+if __name__ == '__main__':
+    ingredients, cocktails = load_data()
+
+    request = json.load(sys.stdin)
+    bar = scan_bar(ingredients, request['ingredients'], set())
+
+    acceptable_drinks = filter_by_season(cocktails, request['season'])
+
+    scores = {}
+    for drink, recipe in acceptable_drinks.items():
+        scores[drink] = {
+            'required': compute_score(bar, recipe['required']),
+            'optional': compute_score(bar, recipe['optional']),
+            'preferred': compute_score(bar, recipe['preferred'])
+        }
+
+    def score_cmp(d1, d2):
+        return cmp(scores[d2[0]]['required'], scores[d1[0]]['required']) or \
+            cmp(scores[d2[0]]['preferred'], scores[d1[0]]['preferred']) or \
+            cmp(scores[d2[0]]['optional'], scores[d1[0]]['optional'])
+
+    sorted_drinks = list(sorted(scores.items(), cmp=score_cmp))
+    if 'limit' in request:
+        sorted_drinks = sorted_drinks[:request['limit']]
+    json.dump(sorted_drinks, sys.stdout, indent=4)

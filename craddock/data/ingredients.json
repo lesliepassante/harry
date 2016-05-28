@@ -1,0 +1,23 @@
+{
+
+	"agave": ["sugar"],
+	"angostura": ["bitters"],
+	"angostura orange": ["orange bitters"],
+	"bitters": [],
+	"bourbon": ["whiskey"],
+	"citrus": [],
+	"bourbon": ["whiskey"],
+	"dolin blanc": ["vermouth"],
+	"dolin dry": ["vermouth"],
+	"dolin rouge": ["vermouth"],
+	"gin": [],
+	"orange": ["citrus"],
+	"orange bitters": ["bitters"],
+	"peychauds": ["bitters"],
+	"raw sugar": ["sugar"],
+	"rye": ["whiskey"],
+	"simple syrup": ["sugar"],
+	"sugar": [],
+	"vermouth": [],
+	"whiskey": []
+}

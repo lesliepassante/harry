@@ -121,6 +121,8 @@
 	"disaronno": ["amaretto"],
 	"disaronno originale": ["dosaronno"],
 	"kahlua": ["liqueur"],
+	"maraschino": [],
+	"maraschino liqueur": ["maraschino"],
 	"punsch": ["liqueur"],
 
 	"mezcal": [],
@@ -132,6 +134,7 @@
 	"dark jamaican rum": ["dark rum", "jamaican rum"],
 	"jamaican rum": ["rum"],
 	"navy proof rum": ["rum", "navy proof spirits"],
+	"white rum": ["rum"],
 
 	"soda": [],
 	"club soda": ["soda"],
@@ -148,6 +151,8 @@
 
 	"sugar": [],
 	"agave": ["sugar"],
+	"gomme syrup": ["gum syrup"],
+	"gum syrup": ["syrup"],
 	"honey": ["sugar"],
 	"maple syrup": ["sugar"],
 	"raw sugar": ["sugar"],

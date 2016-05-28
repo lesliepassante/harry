@@ -1,4 +1,16 @@
 {
+	"angel face": {
+		"required": ["gin", "apricot liqueur", "calvados"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"aviation": {
+		"required": ["gin", "lemon juice", "maraschino"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"benedictine & brandy": {
 		"required": ["brandy", "benedictine"],
 		"optional": [],
@@ -27,6 +39,12 @@
 		"required": ["cachaca", "lime", "sugar"],
 		"optional": [],
 		"preferred": [],
+		"seasons": ["*"]
+	},
+	"casino": {
+		"required": ["gin", "maraschino liqueur", "orange bitters", "lemon juice"],
+		"optional": [],
+		"preferred": ["old tom"],
 		"seasons": ["*"]
 	},
 	"chicago cocktail": {
@@ -83,10 +101,22 @@
 		"preferred": ["rye", "red vermouth", ["angostura", "peychauds"]],
 		"seasons": ["*"]
 	},
+	"french 75": {
+		"required": ["gin", "sugar", "lemon juice", "bubbles"],
+		"optional": [],
+		"preferred": ["simple syrup", "champagne"],
+		"seasons": ["*"]
+	},
 	"french connection": {
 		"required": ["cognac", "amaretto"],
 		"optional": [],
 		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"gin fizz": {
+		"required": ["gin", "lemon juice", "sugar", "soda"],
+		"optional": [],
+		"preferred": [["simple syrup", "gum syrup"]],
 		"seasons": ["*"]
 	},
 	"green russian": {

@@ -95,6 +95,12 @@
 		"preferred": ["angostura"],
 		"seasons": ["*"]
 	},
+	"jack rose": {
+		"required": ["apple brandy", ["lemon", "lime"], "grenadine"],
+		"optional": [],
+		"preferred": ["applejack"],
+		"seasons": ["*"]
+	},
 	"kentucky corpse reviver": {
 		"required": ["bourbon", "lemon juice", "curacao", "lillet", "absinthe"],
 		"optional": ["mint"],

@@ -25,6 +25,7 @@
 
 	"brandy": [],
 	"apple brandy": ["brandy"],
+	"applejack": ["apple brandy"],
 	"calvados": ["apple brandy"],
 	"cognac": ["brandy"],
 

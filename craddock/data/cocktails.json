@@ -1,14 +1,164 @@
 {
+	"benedictine & brandy": {
+		"required": ["brandy", "benedictine"],
+		"optional": [],
+		"preferred": ["cognac"],
+		"seasons": ["*"]
+	},
+	"brandy manhattan": {
+		"required": ["brandy", "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["red vermouth", "angostura"],
+		"seasons": ["*"]
+	},
+	"brandy sour": {
+		"required": ["brandy", "lemon juice", "bitters", "soda"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"brave bull": {
+		"required": ["tequila", "kahlua"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"chicago cocktail": {
+		"required": ["brandy", "curacao", "bitters"],
+		"optional": ["champagne"],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"corpse reviver #1": {
+		"required": ["cognac", "apple brandy", "vermouth"],
+		"optional": [],
+		"preferred": ["sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"corpse reviver #2": {
+		"required": ["gin", "lemon juice", "curacao", "lillet", "absinthe"],
+		"optional": [],
+		"preferred": ["cointreau", "kina lillet"],
+		"seasons": ["*"]
+	},
+	"cuban manhattan": {
+		"required": ["rum", "dry vermouth", "sweet vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["dark rum", "angostura"],
+		"seasons": ["*"]
+	},
+	"curacao punch": {
+		"required": ["soda", "brandy", "curacao", "rum"],
+		"optional": ["orange"],
+		"preferred": ["congac", "orange curacao", "jamaican rum"],
+		"seasons": ["*"]
+	},
+	"death in the afternoon": {
+		"required": ["bubbles", "absinthe"],
+		"optional": [],
+		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
+	"dry manhattan": {
+		"required": [["bourbon", "rye"], "dry vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "angostura"],
+		"seasons": ["*"]
+	},
+	"earthquake": {
+		"required": ["cognac", "absinthe"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"fourth regiment": {
+		"required": ["whiskey", "vermouth", "bitters", "orange bitters", "celery bitters"],
+		"optional": [],
+		"preferred": ["rye", "red vermouth", ["angostura", "peychauds"]],
+		"seasons": ["*"]
+	},
+	"french connection": {
+		"required": ["cognac", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"green russian": {
+		"required": ["absinthe", "milk"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"horse's neck": {
+		"required": ["brandy", "ginger ale", "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["angostura"],
+		"seasons": ["*"]
+	},
+	"kentucky corpse reviver": {
+		"required": ["bourbon", "lemon juice", "curacao", "lillet", "absinthe"],
+		"optional": ["mint"],
+		"preferred": ["cointreau", "lillet blanc"],
+		"seasons": ["*"]
+	},
+	"manhattan": {
+		"required": [["bourbon", "rye"], "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "red vermouth", "angostura"],
+		"seasons": ["*"]
+	},
+	"martini": {
+		"required": ["gin", "vermouth"],
+		"optional": ["orange bitters"],
+		"preferred": [["dolin dry", "lillet rouge"]],
+		"seasons": ["*"]
+	},
+	"monkey gland": {
+		"required": ["gin", "orange juice", "grenadine", "absinthe"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"old fashioned": {
 		"required": ["whiskey", "sugar", "bitters"],
 		"optional": ["orange"],
 		"preferred": [["bourbon", "rye"], "angostura", "raw sugar"],
 		"seasons": ["*"]
 	},
-	"martini": {
-		"required": ["gin", "vermouth"],
-		"optional": ["orange bitters"],
-		"preferred": ["dolin dry"],
+	"perfect manhattan": {
+		"required": [["bourbon", "rye"], "dry vermouth", "sweet vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "angostura"],
+		"seasons": ["*"]
+	},
+	"rob roy": {
+		"required": ["scotch", "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["angostura", "sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"savoy corpse reviver": {
+		"required": ["brandy", "fernet", "creme de menthe"],
+		"optional": [],
+		"preferred": ["fernet branca"],
+		"seasons": ["*"]
+	},
+	"sazerac": {
+		"required": ["cognac", "absinthe", "sugar", "bitters"],
+		"optional": ["rye", "angostura", "lemon"],
+		"preferred": ["peychauds"],
+		"seasons": ["*"]
+	},
+	"the modernista": {
+		"required": ["scotch", "dark rum", "pastis"	, "liqueur", "lemon juice", "bitters"],
+		"optional": [],
+		"preferred": ["dark jamaican rum", "punsch", "orange bitters"],
+		"seasons": ["*"]
+	},
+	"vesper": {
+		"required": ["gin", "vodka", "lillet", "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["tanqueray gin", "stolichnaya vodka", "lillet blanc"],
 		"seasons": ["*"]
 	}
 }

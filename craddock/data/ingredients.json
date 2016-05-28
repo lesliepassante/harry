@@ -6,6 +6,7 @@
 	"ricard": ["pastis"],
 
 	"aperitif": [],
+	"campari": ["aperitif"],
 	"cocchi americano": ["aperitif"],
 	"kina lillet": ["lillet"],
 	"lillet": ["aperitif", "vermouth"],
@@ -31,6 +32,8 @@
 	"pisco": ["pisco"],
 
 	"cachaca": [],
+
+	"cucumber": [],
 
 	"curacao": [],
 	"cointreau": ["curacao"],
@@ -87,7 +90,7 @@
 	"london gin": ["london dry gin"],
 	"navy proof gin": ["gin", "navy proof spirits"],
 	"old tom": ["old tom gin"],
-	"old tom gin": ["gin"],
+	"old tom gin": ["gin", "old tom"],
 	"plymouth gin": ["gin"],
 	"sloe gin": ["gin", "liqueur"],
 	"tanqeray": ["tanqueray gin"],
@@ -106,6 +109,7 @@
 	"juice": [],
 	"tomato juice": [],
 	"fruit juice": ["juice", "fruit"],
+	"grapefruit juice": ["juice", "citrus"],
 	"lemon juice": ["juice", "citrus"],
 	"lime juice": ["juice", "citrus"],
 	"orange juice": ["juice"],
@@ -123,6 +127,7 @@
 	"kahlua": ["liqueur"],
 	"maraschino": [],
 	"maraschino liqueur": ["maraschino"],
+	"pimm's": ["liqueur"],
 	"punsch": ["liqueur"],
 
 	"mezcal": [],
@@ -130,24 +135,33 @@
 	"navy proof spirits": [],
 
 	"rum": [],
+	"bacardi": ["white rum"],
 	"dark rum": ["rum"],
 	"dark jamaican rum": ["dark rum", "jamaican rum"],
 	"jamaican rum": ["rum"],
 	"navy proof rum": ["rum", "navy proof spirits"],
-	"white rum": ["rum"],
+	"light rum": ["rum", "white rum"],
+	"white rum": ["rum", "light rum"],
 
 	"soda": [],
+	"7up": ["lemon-lime soda"],
+	"lemon-lime soda": [],
 	"club soda": ["soda"],
+	"coke": ["cola"],
+	"cola": [],
 	"ginger ale": [],
+	"pepsi": ["cola"],
 	"seltzer": ["soda"],
 	"seltzer water": ["seltzer"],
 	"soda water": ["soda"],
+	"sprite": ["lemon-lime soda"],
 	"tonic": ["tonic water"],
 	"tonic water": ["soda"],
 
 	"spices": [],
 	"cinnamon": ["spices"],
 	"nutmeg": ["spices"],
+	"salt": ["spices"],
 
 	"sugar": [],
 	"agave": ["sugar"],
@@ -155,6 +169,7 @@
 	"gum syrup": ["syrup"],
 	"honey": ["sugar"],
 	"maple syrup": ["sugar"],
+	"orgeat": [],
 	"raw sugar": ["sugar"],
 	"simple syrup": ["sugar"],
 

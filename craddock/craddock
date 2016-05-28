@@ -31,7 +31,6 @@ def filter_by_season(cocktails, season):
 
 
 def compute_score(bar, ingredients):
-    print 'foo', ingredients, bar
     if not ingredients:
         return 0.0
 
@@ -42,7 +41,7 @@ def compute_score(bar, ingredients):
                 score += 1
         elif i in bar:
             score += 1
-    return score / len(ingredients)
+    return round(score / len(ingredients), 2)
 
 
 if __name__ == '__main__':
@@ -53,20 +52,21 @@ if __name__ == '__main__':
 
     acceptable_drinks = filter_by_season(cocktails, request['season'])
 
-    scores = {}
+    scores = []
     for drink, recipe in acceptable_drinks.items():
-        scores[drink] = {
+        scores.append({
+            'name': drink,
             'required': compute_score(bar, recipe['required']),
             'optional': compute_score(bar, recipe['optional']),
             'preferred': compute_score(bar, recipe['preferred'])
-        }
+        })
 
     def score_cmp(d1, d2):
-        return cmp(scores[d2[0]]['required'], scores[d1[0]]['required']) or \
-            cmp(scores[d2[0]]['preferred'], scores[d1[0]]['preferred']) or \
-            cmp(scores[d2[0]]['optional'], scores[d1[0]]['optional'])
+        return cmp(d2['required'], d1['required']) or \
+            cmp(d2['preferred'], d1['preferred']) or \
+            cmp(d2['optional'], d1['optional'])
 
-    sorted_drinks = list(sorted(scores.items(), cmp=score_cmp))
+    sorted_drinks = list(sorted(scores, cmp=score_cmp))
     if 'limit' in request:
         sorted_drinks = sorted_drinks[:request['limit']]
     json.dump(sorted_drinks, sys.stdout, indent=4)

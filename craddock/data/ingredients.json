@@ -28,6 +28,9 @@
 	"applejack": ["apple brandy"],
 	"calvados": ["apple brandy"],
 	"cognac": ["brandy"],
+	"pisco": ["pisco"],
+
+	"cachaca": [],
 
 	"curacao": [],
 	"cointreau": ["curacao"],
@@ -48,10 +51,11 @@
 	"fernet": ["amaro"],
 	"fernet branca": ["fernet"],
 	"southern amaro": ["amaro"],
+	"white creme de menthe": ["creme de menthe"],
 
-	"eggs": [],
-	"egg white": ["eggs"],
-	"egg yolk": ["eggs"],
+	"eggs": ["egg white", "egg yolk"],
+	"egg white": [],
+	"egg yolk": [],
 
 	"fruit": [],
 	"berries": ["fruit"],
@@ -100,15 +104,20 @@
 	"thyme": ["herbs"],
 
 	"juice": [],
-	"tomato juice": ["juice"],
+	"tomato juice": [],
 	"fruit juice": ["juice", "fruit"],
 	"lemon juice": ["juice", "citrus"],
 	"lime juice": ["juice", "citrus"],
 	"orange juice": ["juice"],
+	"pineapple juice": [],
 
 	"liqueur": [],
 	"amaretto": [],
+	"apricot liqueur": [],
+	"apricot brandy": ["apricot liqueur"],
 	"benedictine": ["liqueur"],
+	"cherry liqueur": [],
+	"cherry brandy": ["cherry liqueur"],
 	"disaronno": ["amaretto"],
 	"disaronno originale": ["dosaronno"],
 	"kahlua": ["liqueur"],
@@ -170,6 +179,7 @@
 	"cava": ["bubbles", "white wine"],
 	"cava rose": ["cava", "rose"],
 	"champagne": ["bubbles", "white wine"],
+	"port": [],
 	"prosecco": ["bubbles", "white wine"],
 	"red wine": ["wine"],
 	"rose": ["wine"]

@@ -23,6 +23,12 @@
 		"preferred": [],
 		"seasons": ["*"]
 	},
+	"caparinha": {
+		"required": ["cachaca", "lime", "sugar"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"chicago cocktail": {
 		"required": ["brandy", "curacao", "bitters"],
 		"optional": ["champagne"],
@@ -131,10 +137,28 @@
 		"preferred": [["bourbon", "rye"], "angostura", "raw sugar"],
 		"seasons": ["*"]
 	},
+	"paradise": {
+		"required": ["gin", "apricot liqueur", "orange juice"],
+		"optional": [],
+		"preferred": ["apricot brandy"],
+		"seasons": ["*"]
+	},
 	"perfect manhattan": {
 		"required": [["bourbon", "rye"], "dry vermouth", "sweet vermouth", "bitters"],
 		"optional": [],
 		"preferred": ["rye", "angostura"],
+		"seasons": ["*"]
+	},
+	"pisco sour": {
+		"required": ["pisco", "lemon juice", "sugar", "egg white"],
+		"optional": [],
+		"preferred": ["simple syrup"],
+		"seasons": ["*"]
+	},
+	"porto flip": {
+		"required": ["brandy", "port", "egg yolk"],
+		"optional": ["nutmeg"],
+		"preferred": [],
 		"seasons": ["*"]
 	},
 	"rob roy": {
@@ -153,6 +177,24 @@
 		"required": ["cognac", "absinthe", "sugar", "bitters"],
 		"optional": ["rye", "angostura", "lemon"],
 		"preferred": ["peychauds"],
+		"seasons": ["*"]
+	},
+	"sidecar": {
+		"required": ["cognac", "curacao", "lemon juice"],
+		"optional": [],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"singapore sling": {
+		"required": ["gin", "cherry liqueur", "curacao", "benedictine", "pineapple juice", "lime juice", "bitters"],
+		"optional": [],
+		"preferred": ["cointreau", "angostura"],
+		"seasons": ["*"]
+	},
+	"stinger": {
+		"required": ["cognac", "creme de menthe"],
+		"optional": [],
+		"preferred": ["white creme de menth"],
 		"seasons": ["*"]
 	},
 	"the modernista": {

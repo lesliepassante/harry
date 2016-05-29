@@ -1,5 +1,6 @@
 {
 	"ingredients": ["old tom gin", "orange bitters", "vermouth", "lemon", "soda", "simple syrup"],
 	"season": "summer",
+	"exclude": ["americano", "martini"],
 	"limit": 10
 }

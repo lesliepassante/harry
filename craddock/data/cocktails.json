@@ -5,6 +5,12 @@
 		"preferred": [],
 		"seasons": ["*"]
 	},
+	"americano": {
+		"required": ["campari", "red vermouth", "soda"],
+		"optional": ["orange"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"angel face": {
 		"required": ["gin", "apricot liqueur", "calvados"],
 		"optional": [],
@@ -227,6 +233,12 @@
 		"preferred": ["simple syrup"],
 		"seasons": ["*"]
 	},
+	"gin & tonic": {
+		"required": ["gin", "tonic"],
+		"optional": ["lime"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"gin fizz": {
 		"required": ["gin", "lemon juice", "sugar", "soda"],
 		"optional": [],
@@ -257,6 +269,12 @@
 		"preferred": ["angostura"],
 		"seasons": ["*"]
 	},
+	"hot toddy": {
+		"required": ["whiskey", "sugar", ["herbs", "tea"]],
+		"optional": ["spices"],
+		"preferred": ["honey"],
+		"seasons": ["winter"]
+	},
 	"jack rose": {
 		"required": ["apple brandy", ["lemon", "lime"], "grenadine"],
 		"optional": [],
@@ -267,6 +285,12 @@
 		"required": ["vodka", "curacao"],
 		"optional": ["lime"],
 		"preferred": ["triple sec"],
+		"seasons": ["*"]
+	},
+	"kentucky colonel": {
+		"required": ["bourbon", "benedictine", "bitters"],
+		"optional": [],
+		"preferred": ["orange bitters", "angostura"],
 		"seasons": ["*"]
 	},
 	"kentucky corpse reviver": {
@@ -431,6 +455,12 @@
 		"preferred": [],
 		"seasons": ["*"]
 	},
+	"seelbach": {
+		"required": [["bourbon", "rye"], "curacao", "angostura", "peychauds", "bubbles"],
+		"optional": ["lemon"],
+		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
 	"sex on the beach": {
 		"required": ["vodka", "schnapps", "orange juice", "cranberry juice"],
 		"optional": ["peach schnapps"],
@@ -489,6 +519,18 @@
 		"required": ["gin", "vodka", "lillet", "bitters"],
 		"optional": ["lemon"],
 		"preferred": ["tanqueray gin", "stolichnaya vodka", "lillet blanc"],
+		"seasons": ["*"]
+	},
+	"vieux carre": {
+		"required": ["rye", "cognac", "vermouth", "benedictine", "peychauds", "angostura"],
+		"optional": ["cherry"],
+		"preferred": ["sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"vodka tonic": {
+		"required": ["vodka", "tonic"],
+		"optional": ["citrus"],
+		"preferred": [],
 		"seasons": ["*"]
 	},
 	"whiskey sour": {

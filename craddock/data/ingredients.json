@@ -108,6 +108,7 @@
 	"mint": ["herbs"],
 	"rosemary": ["herbs"],
 	"sage": ["herbs"],
+	"tea": [],
 	"thyme": ["herbs"],
 
 	"juice": [],
@@ -177,7 +178,7 @@
 	"soda water": ["soda"],
 	"sprite": ["lemon-lime soda"],
 	"tonic": ["tonic water"],
-	"tonic water": ["soda"],
+	"tonic water": [],
 
 	"spices": [],
 	"celery salt": ["spices"],
@@ -204,10 +205,12 @@
 	"dolin dry": ["dry vermouth"],
 	"dolin rouge": ["red vermouth"],
 	"dry vermouth": ["vermouth"],
-	"white vermouth": ["sweet vermouth"],
+	"italian vermouth": ["vermouth"],
+	"punt e mes": ["italian vermouth", "sweet red vermouth"],
 	"red vermouth": ["sweet vermouth"],
 	"sweet vermouth": ["vermouth"],
 	"sweet red vermouth": ["red vermouth", "sweet vermouth"],
+	"white vermouth": ["sweet vermouth"],
 
 	"vodka": [],
 	"navy proof vodka": ["vodka", "navy proof spirits"],

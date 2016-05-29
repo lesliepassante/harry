@@ -1,0 +1,62 @@
+[
+    {
+        "required": 0.67, 
+        "optional": 0.0, 
+        "name": "negroni", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "vesper", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "brave bull", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "death in the afternoon", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "french 75", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "martini", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.5, 
+        "optional": 0.0, 
+        "name": "salty dog", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.33, 
+        "optional": 0.0, 
+        "name": "white lady", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.33, 
+        "optional": 0.0, 
+        "name": "old fashioned", 
+        "preferred": 0.0
+    }, 
+    {
+        "required": 0.33, 
+        "optional": 0.0, 
+        "name": "chicago cocktail", 
+        "preferred": 0.0
+    }
+]

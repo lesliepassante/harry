@@ -3,6 +3,21 @@ GetSuggestionIntent what I can make with {FirstIngredient} and {SecondIngredient
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} and {SecondIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
@@ -107,4 +122,47 @@ GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+
+TryAgainIntent I don't like that
+TryAgainIntent try again
+TryAgainIntent what else
+TryAgainIntent what else can I make
+TryAgainIntent what else could I make
+TryAgainIntent what else should I make
+TryAgainIntent try again
+TryAgainIntent not in the mood
+TryAgainIntent is there anything else
+TryAgainIntent anything else
+TryAgainIntent do you have anything else
+TryAgainIntent is that all
+TryAgainIntent anything else
+TryAgainIntent any other suggestions
+TryAgainIntent do you have any other suggestions
+TryAgainIntent no
+TryAgainIntent um no
+TryAgainIntent gross
+TryAgainIntent I don't like those
+TryAgainIntent I don't have
+ 
+RecipeIntent what is
+RecipeIntent what's that
+RecipeIntent what is that
+RecipeIntent what's in that
+RecipeIntent what is in that
+RecipeIntent how do I make it
+RecipeIntent how do I make that
+RecipeIntent how would I make it
+RecipeIntent how would I make that
+RecipeIntent what are the ingredients
+RecipeIntent what do I need
+RecipeIntent what do I need to make it
+RecipeIntent what do I need to make that
+RecipeIntent what would I need
+RecipeIntent what would I need to make it
+RecipeIntent what would I need to make that
+RecipeIntent ingredients
+RecipeIntent what are the ingredients
+RecipeIntent what are the other ingredients
+RecipeIntent what else do I need
+
 

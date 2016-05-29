@@ -341,6 +341,12 @@
 		"preferred": ["cointreau", "lillet blanc"],
 		"seasons": ["*"]
 	},
+	"last word": {
+		"required": ["gin", "lime juice", "maraschino", "chartreuse"],
+		"optional": ["cola"],
+		"preferred": ["white rum", "triple sec", "gum syrup"],
+		"seasons": ["*"]
+	},
 	"long island iced tea": {
 		"required": ["tequila", "vodka", "rum", "curacao", "gin", "lemon juice", "sugar"],
 		"optional": ["cola"],
@@ -363,6 +369,12 @@
 		"required": ["tequila", "curacao", "lime juice"],
 		"optional": ["salt"],
 		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"martinez": {
+		"required": ["gin", "sweet vermouth", ["maraschino", "curacao"], "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["old tom", "orange bitters"],
 		"seasons": ["*"]
 	},
 	"martini": {
@@ -531,6 +543,12 @@
 		"required": ["vodka", "schnapps", "orange juice", "cranberry juice"],
 		"optional": ["peach schnapps"],
 		"preferred": [],
+		"seasons": ["*"]
+	},
+	"sherry martini": {
+		"required": ["gin", "sherry"],
+		"optional": ["lemon"],
+		"preferred": ["dry sherry"],
 		"seasons": ["*"]
 	},
 	"sidecar": {

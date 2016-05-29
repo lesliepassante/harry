@@ -137,6 +137,12 @@
 		"preferred": ["cointreau"],
 		"seasons": ["*"]
 	},
+	"clover club": {
+		"required": ["gin", "lemon juice", "raspberry syrup", "egg white"],
+		"optional": [],
+		"preferred": [	],
+		"seasons": ["*"]
+	},
 	"corpse reviver #1": {
 		"required": ["cognac", "apple brandy", "vermouth"],
 		"optional": [],
@@ -179,10 +185,22 @@
 		"preferred": ["white rum", "simple syrup"],
 		"seasons": ["*"]
 	},
+	"dark n stormy": {
+		"required": ["dark rum", "ginger beer"],
+		"optional": ["lime"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
 	"death in the afternoon": {
 		"required": ["bubbles", "absinthe"],
 		"optional": [],
 		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
+	"derby": {
+		"required": ["gin", "peach bitters", "mint"],
+		"optional": [],
+		"preferred": [],
 		"seasons": ["*"]
 	},
 	"dry manhattan": {
@@ -249,6 +267,30 @@
 		"required": ["gin", "lime juice", "soda"],
 		"optional": [],
 		"preferred": ["plymouth gin"],
+		"seasons": ["*"]
+	},
+	"godchild": {
+		"required": ["cream", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"godfather": {
+		"required": ["scotch", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"godmother": {
+		"required": ["vodka", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"golden dream": {
+		"required": ["galliano", "curacao", "orange juice", "cream"],
+		"optional": [],
+		"preferred": ["triple sec"],
 		"seasons": ["*"]
 	},
 	"green russian": {
@@ -327,6 +369,24 @@
 		"required": ["gin", "vermouth"],
 		"optional": ["orange bitters"],
 		"preferred": [["dolin dry", "lillet rouge"]],
+		"seasons": ["*"]
+	},
+	"mary pickford": {
+		"required": ["white rum", "pineapple juice", "grenadine", "maraschino"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"negroni": {
+		"required": ["mezcal", "vermouth", "campari"],
+		"optional": ["orange"],
+		"preferred": [["sweet red vermouth", "red vermouth"]],
+		"seasons": ["*"]
+	},
+	"mimosa": {
+		"required": ["bubbles", "orange juice"],
+		"optional": ["orange"],
+		"preferred": ["champagne"],
 		"seasons": ["*"]
 	},
 	"mint julep": {
@@ -411,6 +471,12 @@
 		"required": ["brandy", "port", "egg yolk"],
 		"optional": ["nutmeg"],
 		"preferred": [],
+		"seasons": ["*"]
+	},
+	"ramos fizz": {
+		"required": ["gin", "lemon juice", "syrup", "soda"],
+		"optional": [],
+		"preferred": ["gum syrup"],
 		"seasons": ["*"]
 	},
 	"rob roy": {
@@ -515,6 +581,12 @@
 		"preferred": ["old tom", "simple syrup"],
 		"seasons": ["*"]
 	},
+	"tuxedo": {
+		"required": ["gin", "vermouth", "maraschino", "absinthe", "bitters"],
+		"optional": ["cherry"],
+		"preferred": ["old tom", "dry vermouth", "orange bitters"],
+		"seasons": ["*"]
+	},
 	"vesper": {
 		"required": ["gin", "vodka", "lillet", "bitters"],
 		"optional": ["lemon"],
@@ -525,6 +597,12 @@
 		"required": ["rye", "cognac", "vermouth", "benedictine", "peychauds", "angostura"],
 		"optional": ["cherry"],
 		"preferred": ["sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"vodka martini": {
+		"required": ["vodka", "vermouth"],
+		"optional": ["lemon"],
+		"preferred": ["dry vermouth"],
 		"seasons": ["*"]
 	},
 	"vodka tonic": {

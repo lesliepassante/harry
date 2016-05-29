@@ -63,6 +63,7 @@ if __name__ == '__main__':
 
     def score_cmp(d1, d2):
         return cmp(d2['required'], d1['required']) or \
+            cmp(len(cocktails[d2['name']]['required']), len(cocktails[d1['name']]['required'])) or \
             cmp(d2['preferred'], d1['preferred']) or \
             cmp(d2['optional'], d1['optional'])
 

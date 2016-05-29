@@ -1,14 +1,650 @@
 {
+	"amaretto sunrise": {
+		"required": ["disaronno", "orange juice", "grenadine"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"americano": {
+		"required": ["campari", "red vermouth", "soda"],
+		"optional": ["orange"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"angel face": {
+		"required": ["gin", "apricot liqueur", "calvados"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"aperol spritz": {
+		"required": ["aperol", "bubbles", "soda"],
+		"optional": ["orange"],
+		"preferred": ["prosecco"],
+		"seasons": ["*"]
+	},
+	"aperol sunrise": {
+		"required": ["tequila", "orange juice", "aperol"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"aviation": {
+		"required": ["gin", "lemon juice", "maraschino"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"bacardi cocktail": {
+		"required": ["white rum", "lime juice", "grenadine"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"bellini": {
+		"required": ["prosecco", "peach puree"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"benedictine & brandy": {
+		"required": ["brandy", "benedictine"],
+		"optional": [],
+		"preferred": ["cognac"],
+		"seasons": ["*"]
+	},
+	"between the sheets": {
+		"required": ["white rum", "cognac", "curacao", "lemon juice"],
+		"optional": [],
+		"preferred": ["triple sec"],
+		"seasons": ["*"]
+	},
+	"black russian": {
+		"required": ["vodka", "coffee liqueur"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"bloody mary": {
+		"required": ["vodka", "tomato juice", "lemon juice", "worcestershire", "hot sauce", ["celery salt", "celery bitters"]],
+		"optional": ["pepper"],
+		"preferred": ["tabasco"],
+		"seasons": ["*"]
+	},
+	"bobby burns": {
+		"required": ["scotch", "vermouth", "benedictine"],
+		"optional": ["lemon"],
+		"preferred": ["red vermouth"],
+		"seasons": ["*"]
+	},
+	"boulevardier": {
+		"required": [["bourbon", "rye"], "campari", "vermouth"],
+		"optional": [],
+		"preferred": ["red vermouth"],
+		"seasons": ["*"]
+	},
+	"brandy manhattan": {
+		"required": ["brandy", "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["red vermouth", "angostura"],
+		"seasons": ["*"]
+	},
+	"brandy sour": {
+		"required": ["brandy", "lemon juice", "bitters", "soda"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"brave bull": {
+		"required": ["tequila", "kahlua"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"brooklyn": {
+		"required": [["rye", "whisky"], "vermouth", "bitters"],
+		"optional": ["cherry"],
+		"preferred": ["dry vermouth", "angostura"],
+		"seasons": ["*"]
+	},
+	"caparinha": {
+		"required": ["cachaca", "lime", "sugar"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"caribbean sunrise": {
+		"required": ["rum", "orange juice", "grenadine"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"casino": {
+		"required": ["gin", "maraschino liqueur", "orange bitters", "lemon juice"],
+		"optional": [],
+		"preferred": ["old tom"],
+		"seasons": ["*"]
+	},
+	"champagne cocktail": {
+		"required": ["champagne", "cognac", "bitters", "sugar"],
+		"optional": [],
+		"preferred": ["angostura"],
+		"seasons": ["*"]
+	},
+	"chicago cocktail": {
+		"required": ["brandy", "curacao", "bitters"],
+		"optional": ["champagne"],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"clover club": {
+		"required": ["gin", "lemon juice", "raspberry syrup", "egg white"],
+		"optional": [],
+		"preferred": [	],
+		"seasons": ["*"]
+	},
+	"corpse reviver #1": {
+		"required": ["cognac", "apple brandy", "vermouth"],
+		"optional": [],
+		"preferred": ["sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"corpse reviver #2": {
+		"required": ["gin", "lemon juice", "curacao", "lillet", "absinthe"],
+		"optional": [],
+		"preferred": ["cointreau", "kina lillet"],
+		"seasons": ["*"]
+	},
+	"cosmopolitan": {
+		"required": ["vodka", "curacao", "lime juice", "cranberry juice"],
+		"optional": ["lemon"],
+		"preferred": ["vodka citron", "cointreau"],
+		"seasons": ["*"]
+	},
+	"cuba libre": {
+		"required": ["cola", "white rum", "lime juice"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"cuban manhattan": {
+		"required": ["rum", "dry vermouth", "sweet vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["dark rum", "angostura"],
+		"seasons": ["*"]
+	},
+	"curacao punch": {
+		"required": ["soda", "brandy", "curacao", "rum"],
+		"optional": ["orange"],
+		"preferred": ["congac", "orange curacao", "jamaican rum"],
+		"seasons": ["*"]
+	},
+	"daiquiri": {
+		"required": ["rum", "lime juice", "sugar"],
+		"optional": [],
+		"preferred": ["white rum", "simple syrup"],
+		"seasons": ["*"]
+	},
+	"dark n stormy": {
+		"required": ["dark rum", "ginger beer"],
+		"optional": ["lime"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"death in the afternoon": {
+		"required": ["bubbles", "absinthe"],
+		"optional": [],
+		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
+	"derby": {
+		"required": ["gin", "peach bitters", "mint"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"dry manhattan": {
+		"required": [["bourbon", "rye"], "dry vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "angostura"],
+		"seasons": ["*"]
+	},
+	"earthquake": {
+		"required": ["cognac", "absinthe"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"enamorado sunrise": {
+		"required": ["tequila", "orange juice", "campari"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"florida sunrise": {
+		"required": ["tequila", "orange juice", "pineapple juice", "grenadine"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"fourth regiment": {
+		"required": ["whiskey", "vermouth", "bitters", "orange bitters", "celery bitters"],
+		"optional": [],
+		"preferred": ["rye", "red vermouth", ["angostura", "peychauds"]],
+		"seasons": ["*"]
+	},
+	"french 75": {
+		"required": ["gin", "sugar", "lemon juice", "bubbles"],
+		"optional": [],
+		"preferred": ["simple syrup", "champagne"],
+		"seasons": ["*"]
+	},
+	"french connection": {
+		"required": ["cognac", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"gimlet": {
+		"required": [["gin", "vodka"], "sugar", "lime juice"],
+		"optional": [],
+		"preferred": ["simple syrup"],
+		"seasons": ["*"]
+	},
+	"gin & tonic": {
+		"required": ["gin", "tonic"],
+		"optional": ["lime"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"gin fizz": {
+		"required": ["gin", "lemon juice", "sugar", "soda"],
+		"optional": [],
+		"preferred": [["simple syrup", "gum syrup"]],
+		"seasons": ["*"]
+	},
+	"gin rickey": {
+		"required": ["gin", "lime juice", "soda"],
+		"optional": [],
+		"preferred": ["plymouth gin"],
+		"seasons": ["*"]
+	},
+	"godchild": {
+		"required": ["cream", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"godfather": {
+		"required": ["scotch", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"godmother": {
+		"required": ["vodka", "amaretto"],
+		"optional": [],
+		"preferred": ["disaronno"],
+		"seasons": ["*"]
+	},
+	"golden dream": {
+		"required": ["galliano", "curacao", "orange juice", "cream"],
+		"optional": [],
+		"preferred": ["triple sec"],
+		"seasons": ["*"]
+	},
+	"green russian": {
+		"required": ["absinthe", "milk"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"harvey wallbanger": {
+		"required": ["vodka", "galliano", "orange juice"],
+		"optional": ["cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"horse's neck": {
+		"required": ["brandy", "ginger ale", "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["angostura"],
+		"seasons": ["*"]
+	},
+	"hot toddy": {
+		"required": ["whiskey", "sugar", ["herbs", "tea"]],
+		"optional": ["spices"],
+		"preferred": ["honey"],
+		"seasons": ["winter"]
+	},
+	"jack rose": {
+		"required": ["apple brandy", ["lemon", "lime"], "grenadine"],
+		"optional": [],
+		"preferred": ["applejack"],
+		"seasons": ["*"]
+	},
+	"kamikaze": {
+		"required": ["vodka", "curacao"],
+		"optional": ["lime"],
+		"preferred": ["triple sec"],
+		"seasons": ["*"]
+	},
+	"kentucky colonel": {
+		"required": ["bourbon", "benedictine", "bitters"],
+		"optional": [],
+		"preferred": ["orange bitters", "angostura"],
+		"seasons": ["*"]
+	},
+	"kentucky corpse reviver": {
+		"required": ["bourbon", "lemon juice", "curacao", "lillet", "absinthe"],
+		"optional": ["mint"],
+		"preferred": ["cointreau", "lillet blanc"],
+		"seasons": ["*"]
+	},
+	"last word": {
+		"required": ["gin", "lime juice", "maraschino", "chartreuse"],
+		"optional": ["cola"],
+		"preferred": ["white rum", "triple sec", "gum syrup"],
+		"seasons": ["*"]
+	},
+	"long island iced tea": {
+		"required": ["tequila", "vodka", "rum", "curacao", "gin", "lemon juice", "sugar"],
+		"optional": ["cola"],
+		"preferred": ["white rum", "triple sec", "gum syrup"],
+		"seasons": ["*"]
+	},
+	"mai thai": {
+		"required": ["white rum", "dark rum", "curacao", "orgeat", "lime juice"],
+		"optional": [],
+		"preferred": ["orange curacao"],
+		"seasons": ["*"]
+	},
+	"manhattan": {
+		"required": [["bourbon", "rye"], "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "red vermouth", "angostura"],
+		"seasons": ["*"]
+	},
+	"margarita": {
+		"required": ["tequila", "curacao", "lime juice"],
+		"optional": ["salt"],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"martinez": {
+		"required": ["gin", "sweet vermouth", ["maraschino", "curacao"], "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["old tom", "orange bitters"],
+		"seasons": ["*"]
+	},
+	"martini": {
+		"required": ["gin", "vermouth"],
+		"optional": ["orange bitters"],
+		"preferred": [["dolin dry", "lillet rouge"]],
+		"seasons": ["*"]
+	},
+	"mary pickford": {
+		"required": ["white rum", "pineapple juice", "grenadine", "maraschino"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"negroni": {
+		"required": ["mezcal", "vermouth", "campari"],
+		"optional": ["orange"],
+		"preferred": [["sweet red vermouth", "red vermouth"]],
+		"seasons": ["*"]
+	},
+	"mimosa": {
+		"required": ["bubbles", "orange juice"],
+		"optional": ["orange"],
+		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
+	"mint julep": {
+		"required": ["whiskey", "mint", "sugar"],
+		"optional": [],
+		"preferred": ["bourbon", "powdered sugar"],
+		"seasons": ["*"]
+	},
+	"mojito": {
+		"required": ["rum", "lime juice", "mint", "sugar", "soda"],
+		"optional": [],
+		"preferred": ["white rum"],
+		"seasons": ["*"]
+	},
+	"monkey gland": {
+		"required": ["gin", "orange juice", "grenadine", "absinthe"],
+		"optional": [],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"moscow mule": {
+		"required": ["vodka", "lime juice", "ginger beer"],
+		"optional": ["mint"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"negroni": {
+		"required": ["gin", "vermouth", "campari"],
+		"optional": ["orange"],
+		"preferred": [["sweet red vermouth", "red vermouth"]],
+		"seasons": ["*"]
+	},
 	"old fashioned": {
 		"required": ["whiskey", "sugar", "bitters"],
 		"optional": ["orange"],
 		"preferred": [["bourbon", "rye"], "angostura", "raw sugar"],
 		"seasons": ["*"]
 	},
-	"martini": {
-		"required": ["gin", "vermouth"],
-		"optional": ["orange bitters"],
-		"preferred": ["dolin dry"],
+	"paradise": {
+		"required": ["gin", "apricot liqueur", "orange juice"],
+		"optional": [],
+		"preferred": ["apricot brandy"],
+		"seasons": ["*"]
+	},
+	"perfect manhattan": {
+		"required": [["bourbon", "rye"], "dry vermouth", "sweet vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["rye", "angostura"],
+		"seasons": ["*"]
+	},
+	"pimm's cup": {
+		"required": ["pimm's", "lemon", ["lemon-lime soda", "ginger ale"]],
+		"optional": ["cucumber"],
+		"preferred": [],
+		"seasons": ["summer"]
+	},
+	"pina colada": {
+		"required": ["rum", "coconut milk", "pineapple juice"],
+		"optional": [],
+		"preferred": ["white rum"],
+		"seasons": ["summer"]
+	},
+	"pink lady": {
+		"required": ["gin", "grenadine", "egg white"],
+		"optional": ["apple brandy"],
+		"preferred": [],
+		"seasons": [""]
+	},
+	"pisco sour": {
+		"required": ["pisco", "lemon juice", "sugar", "egg white"],
+		"optional": [],
+		"preferred": ["simple syrup"],
+		"seasons": ["*"]
+	},
+	"planter's punch": {
+		"required": ["dark rum", "orange juice", "pineapple juice", "lemon juice", "grenadine", "sugar", "bitters"],
+		"optional": [],
+		"preferred": ["simple syrup", "angostura"],
+		"seasons": ["*"]
+	},
+	"porto flip": {
+		"required": ["brandy", "port", "egg yolk"],
+		"optional": ["nutmeg"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"ramos fizz": {
+		"required": ["gin", "lemon juice", "syrup", "soda"],
+		"optional": [],
+		"preferred": ["gum syrup"],
+		"seasons": ["*"]
+	},
+	"rob roy": {
+		"required": ["scotch", "vermouth", "bitters"],
+		"optional": [],
+		"preferred": ["angostura", "sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"rusty nail": {
+		"required": ["scotch", "drambuie"],
+		"optional": ["lemon"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"salty dog": {
+		"required": [["gin", "vodka"], "grapefruit juice"],
+		"optional": ["salt"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"savoy corpse reviver": {
+		"required": ["brandy", "fernet", "creme de menthe"],
+		"optional": [],
+		"preferred": ["fernet branca"],
+		"seasons": ["*"]
+	},
+	"sazerac": {
+		"required": ["cognac", "absinthe", "sugar", "bitters"],
+		"optional": ["rye", "angostura", "lemon"],
+		"preferred": ["peychauds"],
+		"seasons": ["*"]
+	},
+	"screwdriver": {
+		"required": ["vodka", "orange juice"],
+		"optional": ["orange"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"sea breeze": {
+		"required": ["vodka", "cranberry juice", "grapefruit juice"],
+		"optional": ["lime"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"seelbach": {
+		"required": [["bourbon", "rye"], "curacao", "angostura", "peychauds", "bubbles"],
+		"optional": ["lemon"],
+		"preferred": ["champagne"],
+		"seasons": ["*"]
+	},
+	"sex on the beach": {
+		"required": ["vodka", "schnapps", "orange juice", "cranberry juice"],
+		"optional": ["peach schnapps"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"sherry martini": {
+		"required": ["gin", "sherry"],
+		"optional": ["lemon"],
+		"preferred": ["dry sherry"],
+		"seasons": ["*"]
+	},
+	"sidecar": {
+		"required": ["cognac", "curacao", "lemon juice"],
+		"optional": [],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"singapore sling": {
+		"required": ["gin", "cherry liqueur", "curacao", "benedictine", "pineapple juice", "lime juice", "bitters"],
+		"optional": [],
+		"preferred": ["cointreau", "angostura"],
+		"seasons": ["*"]
+	},
+	"smoky margarita": {
+		"required": ["mezcal", "curacao", "lime juice"],
+		"optional": ["salt"],
+		"preferred": ["cointreau"],
+		"seasons": ["*"]
+	},
+	"southern sunrise": {
+		"required": ["southern comfort", "orange juice", "grenadine"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"stinger": {
+		"required": ["cognac", "creme de menthe"],
+		"optional": [],
+		"preferred": ["white creme de menth"],
+		"seasons": ["*"]
+	},
+	"tequila sunrise": {
+		"required": ["tequila", "orange juice", "grenadine"],
+		"optional": ["orange", "cherry"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"the modernista": {
+		"required": ["scotch", "dark rum", "pastis"	, "liqueur", "lemon juice", "bitters"],
+		"optional": [],
+		"preferred": ["dark jamaican rum", "punsch", "orange bitters"],
+		"seasons": ["*"]
+	},
+	"tom collins": {
+		"required": ["gin", "lemon juice", "sugar", "soda"],
+		"optional": [],
+		"preferred": ["old tom", "simple syrup"],
+		"seasons": ["*"]
+	},
+	"tuxedo": {
+		"required": ["gin", "vermouth", "maraschino", "absinthe", "bitters"],
+		"optional": ["cherry"],
+		"preferred": ["old tom", "dry vermouth", "orange bitters"],
+		"seasons": ["*"]
+	},
+	"vesper": {
+		"required": ["gin", "vodka", "lillet", "bitters"],
+		"optional": ["lemon"],
+		"preferred": ["tanqueray gin", "stolichnaya vodka", "lillet blanc"],
+		"seasons": ["*"]
+	},
+	"vieux carre": {
+		"required": ["rye", "cognac", "vermouth", "benedictine", "peychauds", "angostura"],
+		"optional": ["cherry"],
+		"preferred": ["sweet vermouth"],
+		"seasons": ["*"]
+	},
+	"vodka martini": {
+		"required": ["vodka", "vermouth"],
+		"optional": ["lemon"],
+		"preferred": ["dry vermouth"],
+		"seasons": ["*"]
+	},
+	"vodka tonic": {
+		"required": ["vodka", "tonic"],
+		"optional": ["citrus"],
+		"preferred": [],
+		"seasons": ["*"]
+	},
+	"whiskey sour": {
+		"required": ["whiskey", "lemon juice", "sugar"],
+		"optional": ["egg white"],
+		"preferred": ["bourbon", ["simple syrup", "gum syrup"]],
+		"seasons": ["*"]
+	},
+	"white lady": {
+		"required": ["gin", "curacao", "lemon juice"],
+		"optional": [],
+		"preferred": [["cointreau"], "triple sec"],
+		"seasons": ["*"]
+	},
+	"white russian": {
+		"required": ["vodka", "coffee liqueur", "cream"],
+		"optional": [],
+		"preferred": [],
 		"seasons": ["*"]
 	}
 }

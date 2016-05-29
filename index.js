@@ -74,12 +74,18 @@ function handleNewSuggestion(intent, response, session) {
     session.attributes.suggestions = null;
     session.attributes.currentCocktail = null
 
+    console.log(ingredients);
+
     if(ingredients.length) {
         Craddock.ask({ ingredients: ingredients }).then(function(res) {
-            session.attributes.stage = 1;
-            session.attributes.suggestions = res;
-            session.attributes.currentCocktail = 0;
-            speechText = formatSuggestion(res[0]);
+            if(res.length > 0) {
+                session.attributes.stage = 1;
+                session.attributes.suggestions = res;
+                session.attributes.currentCocktail = 0;
+                speechText = formatSuggestion(res[0]);
+            } else {
+                speechText = "I'm sorry, I don't know any cocktail recipes that match what you just said. Perhaps you should go take a look at your liquor cabinet and try again.";
+            }
             response.tellWithCard(speechText, 'Harry', speechText, false);
         }).catch(function(err) {
             speechText = "I'm sorry, I couldn't find anything appropriate.";

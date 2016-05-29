@@ -46,12 +46,24 @@ GetSuggestionIntent what cocktail should I make with {FirstIngredient} and {Seco
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent what cocktail I should make with {FirstIngredient}
+GetSuggestionIntent what cocktail I should  make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what cocktail I should  make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what cocktail I should  make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what cocktail I should  make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent what cocktail I should  make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} and {SecondIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent what drink I should make with {FirstIngredient}
+GetSuggestionIntent what drink I should  make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what drink I should  make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what drink I should  make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent what drink I should  make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent what drink I should  make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} and {SecondIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
@@ -110,6 +122,12 @@ GetSuggestionIntent a recipe that has {FirstIngredient} and {SecondIngredient} a
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent a recipe that includes {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} and {SecondIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
@@ -141,11 +159,17 @@ GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} and {Third
 GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent I have {FirstIngredient}
+GetSuggestionIntent I have {FirstIngredient} what should i make
+GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient} what should i make
 GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient} and {ThirdIngredient} what should i make
 GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
+GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} and {ThirdIngredient} what should i make
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
+GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient} what should i make
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
+GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient} what should i make
 
 TryAgainIntent I don't like that
 TryAgainIntent try again

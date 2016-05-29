@@ -62,9 +62,11 @@ function handleNewSuggestionRequest(intent, response) {
 
     Craddock.ask({
         ingredients: ingredients,
-        limit: 4
-    }, function(response) {
-        console.log(response)
+        limit: '4',
+        season: 'summer'
+    }, function(err, res) {
+        console.log(err)
+        console.log(res)
         var responseText = 'I suggest a gimlet.';
         response.tellWithCard(responseText, 'Harry', responseText);
     });

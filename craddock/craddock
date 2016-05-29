@@ -48,6 +48,11 @@ if __name__ == '__main__':
     ingredients, cocktails = load_data()
 
     request = json.load(sys.stdin)
+    from pprint import pprint
+    print("cocktails:")
+    pprint(cocktails)
+    print("request:")
+    pprint(request)
     bar = scan_bar(ingredients, request['ingredients'], set())
 
     acceptable_drinks = filter_by_season(cocktails, request['season'])

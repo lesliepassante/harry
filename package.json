@@ -1,0 +1,11 @@
+{
+  "name": "harry",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Leslie Passante",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.13.1"
+  }
+}

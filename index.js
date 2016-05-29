@@ -9,6 +9,7 @@
  */
 
 var _          = require('lodash');
+var listify    = require('listify');
 var AlexaSkill = require('./lib/alexa-skill');
 var Craddock   = require('./lib/craddock');
 
@@ -96,10 +97,7 @@ function handleTryAgain(intent, response, session) {
     if(session.attributes.stage === 1) {
         var current = session.attributes.currentCocktail;
         var next = current + 1;
-
-        console.log("next: " + next)
         if(session.attributes.suggestions && session.attributes.suggestions[next]) {
-            console.log(session.attributes.suggestions[next])
             session.attributes.currentCocktail = next;
             speechText = formatTryAgain(session.attributes.suggestions[next]);
         } else {
@@ -113,7 +111,14 @@ function handleTryAgain(intent, response, session) {
 }
 
 function handleRecipe(intent, response, session) {
-    var speechText = "I'm sorry, I'm not sure what is in that.";
+    var speechText = '';
+
+    if(session.attributes.suggestions) {
+        speechText = formatRecipe(session.attributes.suggestions[session.attributes.currentCocktail]);
+    } else {
+        speechText = "What ingredients do you have?";
+    }
+
     response.tellWithCard(speechText, 'Harry', speechText, false);
 }
 
@@ -127,7 +132,11 @@ function formatTryAgain(cocktail) {
 
 
 function formatRecipe(cocktail) {
-
+    var text = "You'll need " + listify(cocktail.recipe.required) + ".";
+    if(cocktail.recipe.preferred.length > 0) {
+        text += " It's best to use " + listify(cocktail.recipe.preferred) + ".";
+    }
+    return text;
 }
 
 exports.handler = function (event, context) {

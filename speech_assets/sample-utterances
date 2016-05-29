@@ -1,85 +1,102 @@
 GetSuggestionIntent what I can make with {FirstIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what I can make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what I can make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what I can make with my {FirstIngredient}
 GetSuggestionIntent what I can make with my {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what I can make with my {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what I can make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what do I make with {FirstIngredient}
 GetSuggestionIntent what do I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what do I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what do I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what do I make with my {FirstIngredient}
 GetSuggestionIntent what do I make with my {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what do I make with my {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what do I make with my {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what can I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what can I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what I should make with {FirstIngredient}
 GetSuggestionIntent what I should make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what I should make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I should make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what I should make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what I should make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what should I make with {FirstIngredient}
 GetSuggestionIntent what should I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what cocktail should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what cocktail should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what drink should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what drink should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what beverage should I make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what beverage should I make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent what to make with {FirstIngredient}
 GetSuggestionIntent what to make with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent what to make with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what to make with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent what to make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent what to make with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent that uses {FirstIngredient}
 GetSuggestionIntent that uses {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent that uses {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a recipe that uses {FirstIngredient}
 GetSuggestionIntent a recipe that uses {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a recipe that uses {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe that uses {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a recipe that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a cocktail that uses {FirstIngredient}
 GetSuggestionIntent a cocktail that uses {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a cocktail that uses {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail that uses {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a cocktail that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a drink that uses {FirstIngredient}
 GetSuggestionIntent a drink that uses {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a drink that uses {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink that uses {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a drink that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent that has {FirstIngredient}
 GetSuggestionIntent that has {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent that has {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that has {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent that uses {FirstIngredient}
 GetSuggestionIntent that uses {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent that uses {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent that uses {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
@@ -89,36 +106,43 @@ GetSuggestionIntent that uses {FirstIngredient} or {SecondIngredient} or {ThirdI
 GetSuggestionIntent that uses {FirstIngredient} or {SecondIngredient} or {ThirdIngredient} or {FourthIngredient} or {FifthIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a recipe that has {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a recipe that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a cocktail that has {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a cocktail that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a drink that has {FirstIngredient}
 GetSuggestionIntent a drink that has {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a drink that has {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink that has {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a drink that has {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a recipe with {FirstIngredient}
 GetSuggestionIntent a recipe with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a recipe with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a recipe with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a recipe with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a cocktail with {FirstIngredient}
 GetSuggestionIntent a cocktail with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a cocktail with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a cocktail with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a cocktail with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent a drink with {FirstIngredient}
 GetSuggestionIntent a drink with {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent a drink with {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent a drink with {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
 GetSuggestionIntent I have {FirstIngredient}
 GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient}
+GetSuggestionIntent I have {FirstIngredient} and {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} and {ThirdIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} and {FourthIngredient}
 GetSuggestionIntent I have {FirstIngredient} {SecondIngredient} {ThirdIngredient} {FourthIngredient} and {FifthIngredient}
